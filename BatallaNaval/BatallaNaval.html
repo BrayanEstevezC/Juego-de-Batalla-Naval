@@ -1,0 +1,262 @@
+<script>
+alert ("Bienvenido a Batalla Naval");
+var jugador1 = prompt("Ingrese el nobre del primer jugador");
+var jugador2 = prompt("Ingrese el nobre del segundo jugador");
+
+// tablero de jugador 1
+var tablero = [
+  [0, 0, 0, 0,],
+  [0, 0, 0, 0,],
+  [0, 0, 0, 0,],
+ 
+    
+];
+// tablero de jugador 2
+  var tablero2 = [
+  [0, 0, 0, 0,],
+  [0, 0, 0, 0,],
+  [0, 0, 0, 0,],
+
+];
+console.log(tablero);
+console.log("tablero de jugador  " + nombre); 
+console.log(tablero2);
+console.log("tablero de jugador  " + nombre2);
+
+// colocar barcos jugador 1
+alert("Colocar tus barcos jugador 1");
+var barco1= [
+[prompt("Ingrese la coordenada X")],
+[prompt("Ingrese la coordenada Y")],
+];
+alert("Colocar barco 2");
+barco2= [
+[prompt("Ingrese la coordenada X")],
+[prompt("Ingrese la coordenada Y")],
+];
+alert("Colocar barco 3");
+barco3= [
+[prompt("Ingrese la coordenada X")],
+[prompt("Ingrese la coordenada Y")],
+];
+
+// colocar barcos jugador 2
+alert("Colocar tus barcos jugador 2");
+var barco4= [
+[prompt("Ingrese la coordenada X")],
+[prompt("Ingrese la coordenada Y")],
+];
+alert("Colocar barco 2");
+barco5= [
+[prompt("Ingrese la coordenada X")],
+[prompt("Ingrese la coordenada Y")],
+];
+alert("Colocar barco 3");
+barco6= [
+[prompt("Ingrese la coordenada X")],
+[prompt("Ingrese la coordenada Y")],
+];
+
+
+//disparos
+alert ("Preparen, apunte, fuegooo!")
+
+var disparo=[
+[prompt("Ingrese la coordenada X")],
+[prompt("Ingrese la coordenada Y")],
+];
+disparo1();
+function disparo1(){
+    if (tablero[disparo==barco1]){
+        alert("Enemigo abatido");
+    }
+    else{
+        alert("Aqui no hay nada mas que aguita glu,glu");
+    }
+    tablero[barco1[0]][disparo[1]]="x";
+    console.log(tablero);}
+
+    alert ("Preparate jugardor 2 es tu turno")
+    disparo2();
+    function disparo2(){
+        var disparo2=[
+        [prompt("Ingrese la coordenada X")],
+        [prompt("Ingrese la coordenada Y")],
+        ];
+        dis2();
+        function dis2(){
+            if (tablero2[disparo2==barco1]){
+                alert("Jugador abatido");
+            }
+            else{
+                alert("Aqui no hay nada mas que aguita glu,glu");
+            }
+            tablero2[barco1[0]][disparo2[1]]="x";
+            console.log(tablero2);}}
+            
+            alert ("Preparate jugardor 1 es tu turno")
+            disparo3();
+            function disparo3(){
+                var disparo3=[
+                [prompt("Ingrese la coordenada X")],
+                [prompt("Ingrese la coordenada Y")],
+                ];
+                dis3();
+                function dis3(){
+                    if (tablero[disparo3==barco4]){
+                        alert("Jugador abatido");
+                    }
+                    else{
+                        alert("Aqui no hay nada mas que aguita glu,glu");
+                    }
+                    tablero[barco4[0]][disparo3[1]]="x";
+                    console.log(tablero);}}
+                    alert ("Preparate jugardor 2 es tu turno")
+                    disparo4();
+                    function disparo4(){
+                        var disparo4=[
+                        [prompt("Ingrese la coordenada X")],
+                        [prompt("Ingrese la coordenada Y")],
+                        ];
+                        dis4();
+                        function dis4(){
+                            if (tablero2[disparo4==barco1]){
+                                alert("Jugador abatido");
+                            }
+                            else{
+                                alert("Aqui no hay nada mas que aguita glu,glu");
+                            }
+                            tablero2[barco1[0]][disparo4[1]]="x";
+                            console.log(tablero2);}}
+                            alert ("Preparate jugardor 1 es tu turno")
+                            disparo5();
+                            function disparo5(){
+                                var disparo5=[
+                                [prompt("Ingrese la coordenada X")],
+                                [prompt("Ingrese la coordenada Y")],
+                                ];
+                                dis5();
+                                function dis5(){
+                                    if (tablero[disparo5==barco4]){
+                                        alert("Jugador abatido");
+                                    }
+                                    else{
+                                        alert("Aqui no hay nada mas que aguita glu,glu");
+                                    }
+                                    tablero[barco4[0]][disparo5[1]]="x";
+                                    console.log(tablero);}}
+                                    alert ("Preparate jugardor 2 es tu turno")
+                                    disparo6();
+                                    function disparo6(){
+                                        var disparo6=[
+                                        [prompt("Ingrese la coordenada X")],
+                                        [prompt("Ingrese la coordenada Y")],
+                                        ];
+                                        dis6();
+                                        function dis6(){
+                                            if (tablero2[disparo6==barco1]){
+                                                alert("Jugador abatido");
+                                            }
+                                            else{
+                                                alert("Aqui no hay nada mas que aguita glu,glu");
+                                            }
+                                            tablero2[barco1[0]][disparo6[1]]="x";
+                                            console.log(tablero2);}}
+                                            alert ("Preparate jugardor 1 es tu turno")
+                                            disparo7();
+                                            function disparo7(){
+                                                var disparo7=[
+                                                [prompt("Ingrese la coordenada X")],
+                                                [prompt("Ingrese la coordenada Y")],
+                                                ];
+                                                dis7();
+                                                function dis7(){
+                                                    if (tablero[disparo7==barco4]){
+                                                        alert("Jugador abatido");
+                                                    }
+                                                    else{
+                                                        alert("Aqui no hay nada mas que aguita glu,glu");
+                                                    }
+                                                    tablero[barco4[0]][disparo7[1]]="x";
+                                                    console.log(tablero);}}
+                                                    alert ("Preparate jugardor 2 es tu turno")
+                                                    disparo8();
+                                                    function disparo8(){
+                                                        var disparo8=[
+                                                        [prompt("Ingrese la coordenada X")],
+                                                        [prompt("Ingrese la coordenada Y")],
+                                                        ];
+                                                        dis8();
+                                                        function dis8(){
+                                                            if (tablero2[disparo8==barco1]){
+                                                                alert("Jugador abatido");
+                                                            }
+                                                            else{
+                                                                alert("Aqui no hay nada mas que aguita glu,glu");
+                                                            }
+                                                            tablero2[barco1[0]][disparo8[1]]="x";
+                                                            console.log(tablero2);}}
+                                                            alert ("Preparate jugardor 1 es tu turno")
+                                                            disparo9();
+                                                            function disparo9(){
+                                                                var disparo9=[
+                                                                [prompt("Ingrese la coordenada X")],
+                                                                [prompt("Ingrese la coordenada Y")],
+                                                                ];
+                                                                dis9();
+                                                                function dis9(){
+                                                                    if (tablero[disparo9==barco4]){
+                                                                        alert("Jugador abatido");
+                                                                    }
+                                                                    else{
+                                                                        alert("Aqui no hay nada mas que aguita glu,glu");
+                                                                    }
+                                                                    tablero[barco4[0]][disparo9[1]]="x";
+                                                                    console.log(tablero);}}
+                                                                    alert ("Preparate jugardor 2 es tu turno")
+                                                                    disparo10();
+                                                                    function disparo10(){
+                                                                        var disparo10=[
+                                                                        [prompt("Ingrese la coordenada X")],
+                                                                        [prompt("Ingrese la coordenada Y")],
+                                                                        ];
+                                                                        dis10();
+                                                                        function dis10(){
+                                                                            if (tablero2[disparo10==barco1]){
+                                                                                alert("Jugador abatido");
+                                                                            }
+                                                                            else{
+                                                                                alert("Aqui no hay nada mas que aguita glu,glu");
+                                                                            }   
+                                                                            tablero2[barco1[0]][disparo10[1]]="x";
+                                                                            console.log(tablero2);}}                                                                         
+    //ganador
+    
+    ganador( );
+    function ganador( ){
+        var contador=0;
+        for (var i=0;i<tablero.length;i++){
+            for (var j=0;j<tablero[i].length;j++){
+                if (tablero[i][j]=="x"){
+                    contador++;
+                }
+            }
+        }
+        if (contador==tablero.length){
+            alert("Ganaste jugador  " + jugador1 + "jugador numero 1"); 
+        }
+        else{
+            contador=0;
+            for (var i=0;i<tablero2.length;i++){
+                for (var j=0;j<tablero2[i].length;j++){
+                    if (tablero2[i][j]=="x"){
+                        contador++;
+                    }
+                }
+            }
+            if (contador==tablero2.length){
+                alert("Ganaste jugador " + jugador2 + "  jugador numero 2");
+            }
+        }
+    }
+</script>
